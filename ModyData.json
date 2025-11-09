@@ -1,0 +1,412 @@
+[
+ {
+  "ID": "ABB",
+  "NAME": "Acharya Brahaspati Bhawan",
+  "LATITUDE": 27.804412,
+  "LONGITUDE": 75.030777,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Academic Building",
+  "DESCRIPTION": "Main academic building used for lectures, tutorials, and faculty offices.",
+  "IMAGE_URL": "images/abb.avif"
+ },
+ {
+  "ID": "Admission office",
+  "NAME": "Admission office",
+  "LATITUDE": 27.800708,
+  "LONGITUDE": 75.030613,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Administration",
+  "DESCRIPTION": "Handles student admissions, queries, and enrollment processes.",
+  "IMAGE_URL": "images/admission_office.jpg"
+ },
+ {
+  "ID": "CDC office",
+  "NAME": "CDC office",
+  "LATITUDE": 27.800979,
+  "LONGITUDE": 75.030605,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Administration",
+  "DESCRIPTION": "Career Development Cell for placement and internship guidance.",
+  "IMAGE_URL": "images/cdc_office.jpg"
+ },
+ {
+  "ID": "Department of online classes",
+  "NAME": "Department of online classes",
+  "LATITUDE": 27.801481,
+  "LONGITUDE": 75.029657,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Administration",
+  "DESCRIPTION": "Manages and coordinates all online academic sessions.",
+  "IMAGE_URL": "images/department_of_online_classes.jpg"
+ },
+ {
+  "ID": "Accounts office",
+  "NAME": "Accounts office ",
+  "LATITUDE": 27.800706,
+  "LONGITUDE": 75.030915,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Administration",
+  "DESCRIPTION": "Takes care of student fees, payroll, and financial records.",
+  "IMAGE_URL": "images/accounts_office.jpg"
+ },
+ {
+  "ID": "Main auditorium",
+  "NAME": "Main auditorium",
+  "LATITUDE": 27.800631,
+  "LONGITUDE": 75.034323,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Auditoriums",
+  "DESCRIPTION": "Large auditorium for events, seminars, and guest lectures.",
+  "IMAGE_URL": "images/main_auditorium.jpg"
+ },
+ {
+  "ID": "Mini auditorium",
+  "NAME": "Mini auditorium",
+  "LATITUDE": 27.800718,
+  "LONGITUDE": 75.034808,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Auditoriums",
+  "DESCRIPTION": "Small auditorium used for departmental programs and meetings.",
+  "IMAGE_URL": "images/mini_auditorium.jpg"
+ },
+ {
+  "ID": "Hockey ground",
+  "NAME": "Hockey ground ",
+  "LATITUDE": 27.802742,
+  "LONGITUDE": 75.03402,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Sports Arena",
+  "DESCRIPTION": "Outdoor field for hockey training and tournaments.",
+  "IMAGE_URL": "images/hockey_ground.jpg"
+ },
+ {
+  "ID": "Basketball court",
+  "NAME": "Basketball court ",
+  "LATITUDE": 27.803237,
+  "LONGITUDE": 75.033084,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Sports Arena",
+  "DESCRIPTION": "Court for basketball practice and inter-college matches.",
+  "IMAGE_URL": "images/basketball_court.jpg"
+ },
+ {
+  "ID": "Football ground",
+  "NAME": "Football ground",
+  "LATITUDE": 27.803952,
+  "LONGITUDE": 75.031948,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Sports Arena",
+  "DESCRIPTION": "Main football ground for practice and events.",
+  "IMAGE_URL": "images/football_ground.jpg"
+ },
+ {
+  "ID": "Tennis court",
+  "NAME": "Tennis court",
+  "LATITUDE": 27.804339,
+  "LONGITUDE": 75.028201,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Sports Arena",
+  "DESCRIPTION": "Hard court area for tennis practice and competitions.",
+  "IMAGE_URL": "images/tennis_court.jpg"
+ },
+ {
+  "ID": "Play ground",
+  "NAME": "Play ground",
+  "LATITUDE": 27.801972,
+  "LONGITUDE": 75.031374,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Others",
+  "DESCRIPTION": "General play area for students’ recreational activities.",
+  "IMAGE_URL": "images/play_ground.jpg"
+ },
+ {
+  "ID": "Tapovan",
+  "NAME": "Tapovan",
+  "LATITUDE": 27.800628,
+  "LONGITUDE": 75.029852,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Temple",
+  "DESCRIPTION": "Spiritual center for meditation and religious ceremonies.",
+  "IMAGE_URL": "images/Tapovan.jpg"
+ },
+ {
+  "ID": "15S1",
+  "NAME": "15S1",
+  "LATITUDE": 27.797877,
+  "LONGITUDE": 75.027333,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Student hostel providing accommodation and common facilities.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "14S1 ",
+  "NAME": "14S1 ",
+  "LATITUDE": 27.797595,
+  "LONGITUDE": 75.028708,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Residential block for students with basic amenities.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "13S1 ",
+  "NAME": "13S1 ",
+  "LATITUDE": 27.797338,
+  "LONGITUDE": 75.030343,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Student hostel with shared rooms and mess facilities.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "13S2 ",
+  "NAME": "13S2 ",
+  "LATITUDE": 27.797834,
+  "LONGITUDE": 75.029602,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Residential hostel for students with study areas.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "13S3 ",
+  "NAME": "13S3 ",
+  "LATITUDE": 27.798501,
+  "LONGITUDE": 75.028535,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Hostel building with recreational and study spaces.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "12S1 ",
+  "NAME": "12S1 ",
+  "LATITUDE": 27.797917,
+  "LONGITUDE": 75.030463,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Hostel for students offering comfortable accommodation.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "12S2 ",
+  "NAME": "12S2 ",
+  "LATITUDE": 27.79854,
+  "LONGITUDE": 75.029359,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Student housing block with common rooms and facilities.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "11S2 ",
+  "NAME": "11S2 ",
+  "LATITUDE": 27.79804,
+  "LONGITUDE": 75.031425,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Hostel building providing residence to students.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "11S3 ",
+  "NAME": "11S3 ",
+  "LATITUDE": 27.798659,
+  "LONGITUDE": 75.030304,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Student dormitory equipped with all basic needs.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "10S1",
+  "NAME": "10S1",
+  "LATITUDE": 27.798799,
+  "LONGITUDE": 75.031104,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Residential block for students with attached dining area.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "6S1",
+  "NAME": "6S1",
+  "LATITUDE": 27.801482,
+  "LONGITUDE": 75.031247,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Student hostel with shared rooms and laundry access.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "7S2",
+  "NAME": "7S2",
+  "LATITUDE": 27.801327,
+  "LONGITUDE": 75.030558,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Hostel facility for student accommodation.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "7S3",
+  "NAME": "7S3",
+  "LATITUDE": 27.801667,
+  "LONGITUDE": 75.029963,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Student residential building with essential services.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "3S5",
+  "NAME": "3S5",
+  "LATITUDE": 27.804884,
+  "LONGITUDE": 75.028504,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Hostel block for students located near sports area.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "3S6",
+  "NAME": "3S6",
+  "LATITUDE": 27.805584,
+  "LONGITUDE": 75.027390,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Hostel",
+  "DESCRIPTION": "Student hostel with modern living facilities.",
+  "IMAGE_URL": "images/Hostel.avif"
+ },
+ {
+  "ID": "Mechanical workshop",
+  "NAME": "Mechanical workshop",
+  "LATITUDE": 27.799458,
+  "LONGITUDE": 75.031191,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Academic Building",
+  "DESCRIPTION": "Workshop area for mechanical engineering practical sessions.",
+  "IMAGE_URL": "images/mechanical_workshop.jpg"
+ },
+ {
+  "ID": "Helipad area",
+  "NAME": "Helipad area",
+  "LATITUDE": 27.798951,
+  "LONGITUDE": 75.027493,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Others",
+  "DESCRIPTION": "Designated helipad zone for emergency and official use.",
+  "IMAGE_URL": "images/helipad_area.jpg"
+ },
+ {
+  "ID": "Main cafeteria",
+  "NAME": "Main cafeteria",
+  "LATITUDE": 27.8011,
+  "LONGITUDE": 75.035199,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Food & Beverages",
+  "DESCRIPTION": "Central cafeteria offering meals and refreshments.",
+  "IMAGE_URL": "images/main_cafeteria.jpg"
+ },
+ {
+  "ID": "Mini cafeteria",
+  "NAME": "Mini cafeteria",
+  "LATITUDE": 27.802656,
+  "LONGITUDE": 75.031111,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Food & Beverages",
+  "DESCRIPTION": "Small food outlet serving snacks and beverages.",
+  "IMAGE_URL": "images/mini_cafeteria.jpg"
+ },
+ {
+  "ID": "Mess",
+  "NAME": "Mess",
+  "LATITUDE": 27.803226,
+  "LONGITUDE": 75.031321,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Food & Beverages",
+  "DESCRIPTION": "Dining hall for students with daily meal service.",
+  "IMAGE_URL": "images/mess.jpg"
+ },
+ {
+  "ID": "Parlour",
+  "NAME": "Parlour",
+  "LATITUDE": 27.80038,
+  "LONGITUDE": 75.027833,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Others",
+  "DESCRIPTION": "Common parlour area for student relaxation and interaction.",
+  "IMAGE_URL": "images/parlour.jpg"
+ },
+ {
+  "ID": "Gym",
+  "NAME": "Gym",
+  "LATITUDE": 27.80038,
+  "LONGITUDE": 75.027833,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Others",
+  "DESCRIPTION": "Gymnasium equipped with fitness and training equipment.",
+  "IMAGE_URL": "images/gym.jpg"
+ },
+ {
+  "ID": "Reception",
+  "NAME": "Reception",
+  "LATITUDE": 27.801564,
+  "LONGITUDE": 75.036523,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Administration",
+  "DESCRIPTION": "Main reception area for campus visitors and inquiries.",
+  "IMAGE_URL": "images/Reception.jpg"
+ },
+ {
+  "ID": "Gazebo",
+  "NAME": "Gazebo",
+  "LATITUDE": 27.802351,
+  "LONGITUDE": 75.025995,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Others",
+  "DESCRIPTION": "Open sitting area for leisure and group discussions.",
+  "IMAGE_URL": "images/gazebo.jpg"
+ },
+ {
+  "ID": "Sob building",
+  "NAME": "Sob building",
+  "LATITUDE": 27.805028,
+  "LONGITUDE": 75.029618,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Academic Building",
+  "DESCRIPTION": "Academic block for School of Business classes and offices.",
+  "IMAGE_URL": "images/sob_building.jpg"
+ },
+ {
+  "ID": "School building",
+  "NAME": "School building",
+  "LATITUDE": 27.801917,
+  "LONGITUDE": 75.035219,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Academic Building",
+  "DESCRIPTION": "Main building for school-level education and classrooms.",
+  "IMAGE_URL": "images/school_building.jpg"
+ },
+ {
+  "ID": "Clinic",
+  "NAME": "Clinic",
+  "LATITUDE": 27.801672,
+  "LONGITUDE": 75.02902,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Medics",
+  "DESCRIPTION": "Campus clinic providing basic healthcare and first aid.",
+  "IMAGE_URL": "images/clinic.jpg"
+ },
+ {
+  "ID": "Band Stand",
+  "NAME": "Band Stand",
+  "LATITUDE": 27.801413,
+  "LONGITUDE": 75.034098,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Others",
+  "DESCRIPTION": "Band Stand Area for Meetings",
+  "IMAGE_URL": "images/Bandstand.jpeg"
+ }
+]
