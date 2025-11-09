@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModyMap - Login</title>
+    
+    <style>
+        /* --- Global Styles --- */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            
+            /* [NEW] Background Image Styling */
+            background-image: url('Mody.png'); /* Your background image */
+            background-size: cover; /* Cover the entire background */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+        }
+
+        /* --- Login Container Styling --- */
+        .login-container {
+            /* [MODIFIED] Translucent background with blur */
+            background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+            backdrop-filter: blur(8px); /* Apply a blur effect */
+            -webkit-backdrop-filter: blur(8px); /* For Safari support */
+            
+            padding: 2.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for contrast */
+            width: 380px;
+            text-align: center;
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for definition */
+        }
+
+        /* --- Logo Styling --- */
+        .login-logo {
+            width: 200px; /* Adjust as needed */
+            margin-bottom: 1rem;
+        }
+
+        /* --- Title --- */
+        h2 {
+            color: #385e3a; /* ModyMap Green */
+            margin-bottom: 2rem;
+            font-size: 24px;
+        }
+
+        /* --- Form Input Fields --- */
+        .input-group {
+            margin-bottom: 1.5rem;
+            text-align: left;
+        }
+
+        .input-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .input-group input {
+            width: 100%;
+            padding: 0.8rem;
+            box-sizing: border-box; 
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque input fields */
+        }
+
+        /* --- Login Button --- */
+        .login-button {
+            width: 100%;
+            padding: 0.8rem;
+            border: none;
+            border-radius: 4px;
+            background-color: #0078d7; /* Mody Blue */
+            color: white;
+            font-size: 1rem;
+            font-weight: bold;
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .login-button:hover {
+            background-color: #005fa3;
+        }
+        
+        /* Make the button disabled when loading */
+        .login-button:disabled {
+            background-color: #aaa;
+            cursor: not-allowed;
+        }
+
+        /* --- Error Message Styling --- */
+        .error-message {
+            color: #d93025; /* Red */
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            display: none; /* Hidden by default */
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="login-container">
+        <form id="login-form">
+            
+            <img src="ModyLogo.jpg" alt="MODY University Logo" class="login-logo">
+            <h2>ModyMap Login</h2>
+            
+            <div class="input-group">
+                <label for="email">Email ID</label>
+                <input type="email" id="email" name="email" placeholder="e.g., jane.doe@modyuniversity.ac.in" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            
+            <button type="submit" id="login-button" class="login-button">Login</button>
+            
+            <p id="error-message" class="error-message"></p>
+        </form>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            const loginForm = document.getElementById('login-form');
+            const emailInput = document.getElementById('email');
+            const passwordInput = document.getElementById('password');
+            const errorMessage = document.getElementById('error-message');
+            const loginButton = document.getElementById('login-button');
+
+            loginForm.addEventListener('submit', async function(event) {
+                event.preventDefault(); 
+                
+                const email = emailInput.value.trim();
+                const password = passwordInput.value;
+
+                loginButton.disabled = true;
+                loginButton.textContent = 'Verifying...';
+                errorMessage.style.display = 'none';
+                
+                const emailRegex = /^[a-zA-Z0-9]+\.[a-zA-Z0-9]+@modyuniversity\.ac\.in$/i;
+                if (!emailRegex.test(email)) {
+                    showError('Invalid email. Must be: name.department@modyuniversity.ac.in');
+                    return;
+                }
+
+                try {
+                    const response = await fetch('users_40.json');
+                    
+                    if (!response.ok) {
+                        throw new Error('Could not load user data. File not found.');
+                    }
+                    
+                    const users = await response.json();
+                    
+                    const matchingUser = users.find(user => 
+                        user.email.toLowerCase() === email.toLowerCase() && 
+                        user.password === password
+                    );
+
+                    if (matchingUser) {
+                        console.log('Login successful for:', matchingUser.email);
+                        sessionStorage.setItem('isLoggedIn', 'true');
+                        sessionStorage.setItem('userEmail', matchingUser.email);
+                        window.location.href = 'index.html'; 
+                    } else {
+                        showError('Invalid email or password.');
+                    }
+
+                } catch (error) {
+                    console.error('Login Error:', error);
+                    showError('Login service is unavailable. Please try again later.');
+                }
+            });
+
+            function showError(message) {
+                errorMessage.textContent = message;
+                errorMessage.style.display = 'block';
+                loginButton.disabled = false;
+                loginButton.textContent = 'Login';
+            }
+        });
+    </script>
+
+</body>
+</html>
