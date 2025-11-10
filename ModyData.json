@@ -7,7 +7,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Academic Building",
   "DESCRIPTION": "Main academic building used for lectures, tutorials, and faculty offices.",
-  "IMAGE_URL": "images/abb.avif"
+  "IMAGE_URL": "images/ABB.png"
  },
  {
   "ID": "Admission office",
@@ -57,7 +57,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Auditoriums",
   "DESCRIPTION": "Large auditorium for events, seminars, and guest lectures.",
-  "IMAGE_URL": "images/main_auditorium.jpg"
+  "IMAGE_URL": "images/MainAudi.png"
  },
  {
   "ID": "Mini auditorium",
@@ -67,7 +67,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Auditoriums",
   "DESCRIPTION": "Small auditorium used for departmental programs and meetings.",
-  "IMAGE_URL": "images/mini_auditorium.jpg"
+  "IMAGE_URL": "images/MiniAudi.png"
  },
  {
   "ID": "Hockey ground",
@@ -87,7 +87,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Sports Arena",
   "DESCRIPTION": "Court for basketball practice and inter-college matches.",
-  "IMAGE_URL": "images/basketball_court.jpg"
+  "IMAGE_URL": "images/BasketballCourt.jpg"
  },
  {
   "ID": "Football ground",
@@ -137,7 +137,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel providing accommodation and common facilities.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "14S1 ",
@@ -147,7 +147,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Residential block for students with basic amenities.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "13S1 ",
@@ -157,7 +157,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel with shared rooms and mess facilities.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "13S2 ",
@@ -167,7 +167,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Residential hostel for students with study areas.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "13S3 ",
@@ -177,7 +177,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel building with recreational and study spaces.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "12S1 ",
@@ -187,7 +187,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel for students offering comfortable accommodation.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "12S2 ",
@@ -197,7 +197,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student housing block with common rooms and facilities.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "11S2 ",
@@ -207,7 +207,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel building providing residence to students.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "11S3 ",
@@ -217,7 +217,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student dormitory equipped with all basic needs.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "10S1",
@@ -227,17 +227,17 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Residential block for students with attached dining area.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
-  "ID": "6S1",
-  "NAME": "6S1",
+  "ID": "6S2",
+  "NAME": "6S2",
   "LATITUDE": 27.801482,
   "LONGITUDE": 75.031247,
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel with shared rooms and laundry access.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "7S2",
@@ -247,7 +247,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel facility for student accommodation.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "7S3",
@@ -257,7 +257,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student residential building with essential services.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "3S5",
@@ -267,7 +267,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel block for students located near sports area.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "3S6",
@@ -277,7 +277,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel with modern living facilities.",
-  "IMAGE_URL": "images/Hostel.avif"
+  "IMAGE_URL": "images/Hostel.png"
  },
  {
   "ID": "Mechanical workshop",
@@ -307,7 +307,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Food & Beverages",
   "DESCRIPTION": "Central cafeteria offering meals and refreshments.",
-  "IMAGE_URL": "images/main_cafeteria.jpg"
+  "IMAGE_URL": "images/MainCafe.jpg"
  },
  {
   "ID": "Mini cafeteria",
@@ -317,7 +317,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Food & Beverages",
   "DESCRIPTION": "Small food outlet serving snacks and beverages.",
-  "IMAGE_URL": "images/mini_cafeteria.jpg"
+  "IMAGE_URL": "images/MiniCafe.jpeg"
  },
  {
   "ID": "Mess",
@@ -327,7 +327,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Food & Beverages",
   "DESCRIPTION": "Dining hall for students with daily meal service.",
-  "IMAGE_URL": "images/mess.jpg"
+  "IMAGE_URL": "images/Mess.jpg"
  },
  {
   "ID": "Parlour",
@@ -367,7 +367,7 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "Open sitting area for leisure and group discussions.",
-  "IMAGE_URL": "images/gazebo.jpg"
+  "IMAGE_URL": "images/Gazebo.jpg"
  },
  {
   "ID": "Sob building",
@@ -408,5 +408,15 @@
   "CATEGORY": "Others",
   "DESCRIPTION": "Band Stand Area for Meetings",
   "IMAGE_URL": "images/Bandstand.jpeg"
+ },
+ {
+  "ID": "Lake",
+  "NAME": "Mier Lake",
+  "LATITUDE": 27.802870,
+  "LONGITUDE": 75.032131,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Others",
+  "DESCRIPTION": "Band Stand Area for Meetings",
+  "IMAGE_URL": "images/MierLake.jpg"
  }
 ]
