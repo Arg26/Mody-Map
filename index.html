@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ModyMap - Integrated Campus Guide</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="app-container">
+        <div class="header">
+            <div class="logo-area">
+                <img src="ModyLogo.jpg" alt="MODY University Logo" class="logo">
+            </div>
+            <div class="title-area">
+                <h1>ModyMap</h1>
+            </div>
+            <div class="tollfree-area">
+                <span class="tollfree-text">Tollfree: 1800-419-9988</span>
+                
+                <button id="location-btn" onclick="toggleLiveLocation()" title="Show My Location">LOC</button>
+                
+                <span id="auth-controls"></span>
+                
+            </div>
+        </div>
+
+        <div class="main-content">
+            <div class="left-panel"> 
+                <div class="building-image-container">
+                </div>
+
+                <div class="controls-container">
+                    <span class="close-btn" onclick="closeSidebar()" title="Close Panel">X</span>
+                    
+                    <div id="route-container" class="controls">
+                        <input type="text" id="start" placeholder="Start Location" list="places">
+                        <input type="text" id="end" placeholder="End Location" list="places">
+                        <button onclick="showRoute()">Show Route</button>
+                        <datalist id="places"></datalist>
+                    </div>
+
+                    <div id="search-container" class="controls">
+                        <input type="text" id="search-box" placeholder="Enter place name from directory..." list="places">
+                        <button onclick="searchPlace('search-box')">Search</button>
+                    </div>
+                </div>
+                
+                <div class="map-links" id="map-links-directory">
+                </div>
+            </div>
+
+            <div class="right-panel">
+                <div id="map"></div>
+                <div id="info-panel">
+                    <span class="close-btn" onclick="closePanel()">X</span>
+                    <div id="info-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+
+    <script src="script.js"></script>
+</body>
+</html>

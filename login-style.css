@@ -1,0 +1,101 @@
+/* --- Global Styles --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    /* [NEW] Background Image Styling */
+    background-image: url('Mody.png'); /* Your background image */
+    background-size: cover; /* Cover the entire background */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}
+
+/* --- Login Container Styling --- */
+.login-container {
+    /* [MODIFIED] Translucent background with blur */
+    background-color: rgba(255, 255, 255, 0.7); /* White with 70% opacity */
+    backdrop-filter: blur(8px); /* Apply a blur effect */
+    -webkit-backdrop-filter: blur(8px); /* For Safari support */
+    
+    padding: 2.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow for contrast */
+    width: 380px;
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.3); /* Light border for definition */
+}
+
+/* --- Logo Styling --- */
+.login-logo {
+    width: 200px; /* Adjust as needed */
+    margin-bottom: 1rem;
+}
+
+/* --- Title --- */
+h2 {
+    color: #385e3a; /* ModyMap Green */
+    margin-bottom: 2rem;
+    font-size: 24px;
+}
+
+/* --- Form Input Fields --- */
+.input-group {
+    margin-bottom: 1.5rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8rem;
+    box-sizing: border-box; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque input fields */
+}
+
+/* --- Login Button --- */
+.login-button {
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #0078d7; /* Mody Blue */
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.login-button:hover {
+    background-color: #005fa3;
+}
+
+/* Make the button disabled when loading */
+.login-button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+/* --- Error Message Styling --- */
+.error-message {
+    color: #d93025; /* Red */
+    margin-top: 1rem;
+    font-size: 0.9rem;
+    display: none; /* Hidden by default */
+    text-align: left;
+}

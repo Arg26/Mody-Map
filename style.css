@@ -1,0 +1,305 @@
+/* --- Global Styles --- */
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    height: 100%;
+    overflow: hidden; /* Prevents scrolling on the body */
+}
+
+#app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Full viewport height */
+}
+
+/* --- Header Styling --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #385e3a;
+    color: white;
+    padding: 10px 20px;
+    height: 60px;
+    flex-shrink: 0; /* Prevents header from shrinking */
+    box-sizing: border-box;
+    z-index: 1001; /* Ensure header is above side panel */
+}
+.logo-area { flex: 1; display: flex; align-items: center; }
+.logo {
+    width: 150px;
+    height: auto;
+    padding: 5px;
+}
+.title-area { flex: 2; text-align: center; }
+.title-area h1 { margin: 0; font-size: 30px; font-weight: bold; }
+.tollfree-area { 
+    flex: 1; 
+    text-align: right; 
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* --- Location Button Style --- */
+#location-btn {
+    background: #fff;
+    color: #385e3a;
+    border: 1px solid #385e3a;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 14px; /* Adjusted for text */
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 15px;
+    line-height: 38px; /* Helps center the icon */
+    transition: background-color 0.2s, color 0.2s;
+    padding: 0; /* Ensure text fits */
+    text-align: center;
+}
+#location-btn:hover {
+    background: #f0f0f0;
+}
+#location-btn.active {
+    background: #0078d7;
+    color: white;
+    border-color: #005fa3;
+    font-size: 18px; /* Make 'X' bigger */
+}
+
+/* Style for the new logout button */
+#logout-btn {
+    margin-left: 10px; 
+    background: #d93025; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    padding: 8px 12px; 
+    cursor: pointer;
+    font-weight: bold;
+}
+#logout-btn:hover {
+    background: #b0261e;
+}
+
+/* --- Main Content Styling --- */
+.main-content {
+    flex-grow: 1; /* Takes up remaining height */
+    height: calc(100vh - 60px); /* Full height minus header */
+    position: relative; /* For absolute positioning of panels */
+    overflow: hidden; 
+}
+
+/* --- Left Panel Styling (Now an overlay) --- */
+.left-panel {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px; /* Fixed width */
+    max-width: 90%; /* For mobile */
+    height: 100%; /* Full height of parent */
+    display: flex;
+    flex-direction: column;
+    background-color: #e6e6e6;
+    overflow-y: auto;
+    z-index: 1000; /* On top of map, below header */
+    box-shadow: 2px 0 5px rgba(0,0,0,0.2);
+    transform: translateX(-100%); /* Hidden by default */
+    transition: transform 0.3s ease-in-out; /* Slide animation */
+}
+
+.left-panel.visible {
+    transform: translateX(0); /* Class to show panel */
+}
+
+.building-image-container {
+    height: 200px;
+    background-image: url('ModyBackground.jpg'); 
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom: 2px solid black;
+    flex-shrink: 0;
+}
+
+/* --- Controls Section in Left Panel --- */
+.controls-container {
+    padding: 15px;
+    background-color: #dcdcdc;
+    border-bottom: 2px solid #b0b0b0;
+    position: relative; /* For the close button */
+}
+
+.controls { display: flex; flex-direction: column; gap: 10px; }
+.controls input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.controls button {
+    padding: 10px 15px;
+    background: #0078d7;
+    color: white; border: none; cursor: pointer; border-radius: 4px;
+}
+.controls button:hover { background: #005fa3; }
+
+#route-container, #search-container { display: none; }
+
+/* --- Map Links/Directory Styling --- */
+.map-links { flex-grow: 1; }
+.link-item {
+    background-color: #e9c878; color: black;
+    padding: 15px 20px;
+    font-size: 18px; font-weight: bold; text-transform: uppercase;
+    border-bottom: 1px solid #c7a760;
+    display: flex; justify-content: space-between; align-items: center;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+.link-item:hover { background-color: #f7e099; }
+.arrow { font-size: 24px; font-weight: normal; }
+
+/* --- Right Panel & Map Styling --- */
+.right-panel {
+    width: 100%; 
+    height: 100%; 
+}
+#map {
+    width: 100%;
+    height: 100%;
+    background-color: #ddd; /* Placeholder color */
+}
+
+/* --- Info Panel Styling (Right side) --- */
+#info-panel {
+    position: absolute;
+    top: 0; right: 0;
+    width: 300px; 
+    max-width: 90%; /* For mobile */
+    height: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: -2px 0 5px rgba(0,0,0,0.2);
+    z-index: 1000;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    padding: 20px; 
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+#info-panel.visible { transform: translateX(0); }
+.close-btn {
+    position: absolute;
+    top: 10px; right: 15px;
+    font-size: 24px; font-weight: bold; cursor: pointer;
+}
+
+/* --- Style for the panel image --- */
+.info-panel-image {
+    width: 100%; /* Make the image fill the panel's width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 4px; /* Optional: rounded corners */
+    margin-bottom: 15px; /* Add space between image and text */
+}
+
+/* --- [UPDATED] Styles for custom map buttons --- */
+.leaflet-control-sidebar-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+    background-color: white;
+
+    /* Added/changed properties */
+    min-width: 120px;      /* Make buttons wider */
+    height: 40px;          /* Increase height */
+    padding: 8px 12px;     /* More padding for text */
+    font-size: 15px;       /* Larger text */
+    border-bottom: 1px solid #ccc; /* Separator line */
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s ease-in-out;
+    
+    /* Optional: remove corner roundness for menu look */
+    border-radius: 0; 
+}
+.leaflet-control-sidebar-button:hover {
+    background-color: #f0f0f0;
+    transform: scale(1.03); /* Subtle hover feedback */
+}
+
+/* Ensure buttons stack nicely (and optional shadow) */
+.leaflet-bar.leaflet-control {
+    /* From main fix */
+    border-radius: 6px;
+    overflow: hidden;
+    
+    /* Optional: add shadow for menu look */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Specific style for the route icon (marker emoji) */
+.route-icon {
+    font-size: 20px; 
+}
+
+/* Specific style for the search icon (magnifying glass emoji) */
+.search-icon {
+    font-size: 20px; 
+}
+
+/* Leaflet Control Box Styling */
+.leaflet-routing-container {
+    background-color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/* --- [CHANGED] Responsive Styles for Mobile --- */
+@media (max-width: 768px) {
+    .header {
+        /* Allow header to grow and content to wrap */
+        height: auto;
+        min-height: 60px;
+        flex-wrap: wrap; 
+        padding: 10px 15px; /* Adjust padding */
+    }
+
+    .logo-area {
+        /* Logo on the left */
+        order: 1; /* First item */
+        flex: 1 1 auto; /* Grow/shrink */
+    }
+
+    .logo {
+        width: 120px; /* Make logo slightly smaller on mobile */
+    }
+
+    .title-area {
+        /* Title on its own line, centered */
+        order: 3; /* Third item (will be on second row) */
+        flex: 1 1 100%; /* Take full width */
+        text-align: center;
+        padding-top: 5px; /* Add space above title */
+    }
+
+    .title-area h1 {
+        font-size: 24px; /* Make title font smaller */
+    }
+
+    .tollfree-area {
+        /* Buttons on the right, on the first line */
+        order: 2; /* Second item */
+        flex: 1 1 auto; /* Grow/shrink */
+        justify-content: flex-end; /* Keep buttons to the right */
+    }
+
+    /* Hide the long toll-free text on mobile */
+    .tollfree-text {
+        display: none;
+    }
+}
