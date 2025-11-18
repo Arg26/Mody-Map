@@ -4,10 +4,12 @@
   "NAME": "Acharya Brahaspati Bhawan",
   "LATITUDE": 27.804412,
   "LONGITUDE": 75.030777,
-  "TIMING": "6.00 AM - 9:00PM",
+  "TIMING": "8.00 AM - 7:30PM",
   "CATEGORY": "Academic Building",
   "DESCRIPTION": "Main academic building used for lectures, tutorials, and faculty offices.",
-  "IMAGE_URL": "images/ABB.png"
+  "IMAGE_URL": "images/ABB.png",
+  "CONTACTS" : "Landline : 225013 , 225020",
+  "EMAIL" : {"SET":"dean.set@modyuniversity.ac.in","SOB":"dean.sob@modyuniversity.ac.in","SLAS":"dean.slas@modyuniversity.ac.in","SOD":"dean.sod@modyuniversity.ac.in","SOL":"dean.sol@modyuniversity.ac.in","SOP":"dean.sop@modyuniversity.ac.in"}
  },
  {
   "ID": "Admission office",
@@ -17,7 +19,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Administration",
   "DESCRIPTION": "Handles student admissions, queries, and enrollment processes.",
-  "IMAGE_URL": "images/admission_office.jpg"
+  "IMAGE_URL": "images/Office.jpg",
+  "CONTACTS" : "Landline : 225030",
+  "EMAIL" : "gmadmissions@modyuniversity.ac.in"
  },
  {
   "ID": "CDC office",
@@ -27,7 +31,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Administration",
   "DESCRIPTION": "Career Development Cell for placement and internship guidance.",
-  "IMAGE_URL": "images/cdc_office.jpg"
+  "IMAGE_URL": "images/Office.jpg",
+  "CONTACTS" : "9329759363",
+  "EMAIL" : "gmcdc@modyuniversity.ac.in"
  },
  {
   "ID": "Department of online classes",
@@ -37,7 +43,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Administration",
   "DESCRIPTION": "Manages and coordinates all online academic sessions.",
-  "IMAGE_URL": "images/department_of_online_classes.jpg"
+  "IMAGE_URL": "images/Office.jpg",
+  "CONTACTS" : "7999422242",
+  "EMAIL" : "director.online@modyuniversity.ac.in"
  },
  {
   "ID": "Accounts office",
@@ -47,7 +55,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Administration",
   "DESCRIPTION": "Takes care of student fees, payroll, and financial records.",
-  "IMAGE_URL": "images/accounts_office.jpg"
+  "IMAGE_URL": "images/Office.jpg",
+  "CONTACTS" : "9116177977",
+  "EMAIL" : "gmf@modyuniversity.ac.in"
  },
  {
   "ID": "Main auditorium",
@@ -57,7 +67,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Auditoriums",
   "DESCRIPTION": "Large auditorium for events, seminars, and guest lectures.",
-  "IMAGE_URL": "images/MainAudi.png"
+  "IMAGE_URL": "images/MainAudi.png",
+  "CONTACTS" : "9826431213",
+  "EMAIL" : "managerauditorium@modyuniversity.ac.in"
  },
  {
   "ID": "Mini auditorium",
@@ -67,7 +79,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Auditoriums",
   "DESCRIPTION": "Small auditorium used for departmental programs and meetings.",
-  "IMAGE_URL": "images/MiniAudi.png"
+  "IMAGE_URL": "images/MiniAudi.png",
+  "CONTACTS" : "9826431213",
+  "EMAIL" : "managerauditorium@modyuniversity.ac.in"
  },
  {
   "ID": "Hockey ground",
@@ -77,7 +91,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Sports Arena",
   "DESCRIPTION": "Outdoor field for hockey training and tournaments.",
-  "IMAGE_URL": "images/hockey_ground.jpg"
+  "IMAGE_URL": "images/HockeyGround.jpg",
+  "CONTACTS" : "9983699134",
+  "EMAIL" : "agms@modyuniversity.ac.in"
  },
  {
   "ID": "Basketball court",
@@ -87,7 +103,10 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Sports Arena",
   "DESCRIPTION": "Court for basketball practice and inter-college matches.",
-  "IMAGE_URL": "images/BasketballCourt.jpg"
+  "IMAGE_URL": "images/BasketballCourt.jpg",
+  "CONTACTS" : "9983699134",
+  "EMAIL" : "agms@modyuniversity.ac.in"
+
  },
  {
   "ID": "Football ground",
@@ -97,7 +116,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Sports Arena",
   "DESCRIPTION": "Main football ground for practice and events.",
-  "IMAGE_URL": "images/football_ground.jpg"
+  "IMAGE_URL": "images/FootballGround.jpg",
+  "CONTACTS" : "9983699134",
+  "EMAIL" : "agms@modyuniversity.ac.in"
  },
  {
   "ID": "Tennis court",
@@ -107,7 +128,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Sports Arena",
   "DESCRIPTION": "Hard court area for tennis practice and competitions.",
-  "IMAGE_URL": "images/tennis_court.jpg"
+  "IMAGE_URL": "images/TennisCourt.jpg",
+  "CONTACTS" : "9983699134",
+  "EMAIL" : "agms@modyuniversity.ac.in"
  },
  {
   "ID": "Play ground",
@@ -117,7 +140,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "General play area for students’ recreational activities.",
-  "IMAGE_URL": "images/play_ground.jpg"
+  "IMAGE_URL": "images/Playground.jpg",
+  "CONTACTS" : "NIL",
+  "EMAIL" : "NIL"
  },
  {
   "ID": "Tapovan",
@@ -127,7 +152,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Temple",
   "DESCRIPTION": "Spiritual center for meditation and religious ceremonies.",
-  "IMAGE_URL": "images/Tapovan.jpg"
+  "IMAGE_URL": "images/Tapovan.jpg",
+  "CONTACTS" : "9968378137",
+  "EMAIL" : "tapovan@modyuniversity.ac.in"
  },
  {
   "ID": "15S1",
@@ -137,7 +164,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel providing accommodation and common facilities.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr. Anupal Mongia : 9896006716 , Dr. Lalita Kumari : 7015456108",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "14S1 ",
@@ -147,7 +176,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Residential block for students with basic amenities.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr. Aditi Sharman :9460057444 , Ms.Isha Trivedi : 8808836716",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "13S1 ",
@@ -157,7 +188,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel with shared rooms and mess facilities.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Ms. Manisha Sharma : 7849979750",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "13S2 ",
@@ -167,7 +200,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Residential hostel for students with study areas.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "NIL",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "13S3 ",
@@ -177,7 +212,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel building with recreational and study spaces.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr. Nitu Nuwal :8875685558 , Dr.Pooja Jain : 9784180802 ",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "12S1 ",
@@ -187,7 +224,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel for students offering comfortable accommodation.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "NIL",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "12S2 ",
@@ -197,7 +236,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student housing block with common rooms and facilities.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "NIL",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "11S2 ",
@@ -207,7 +248,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel building providing residence to students.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Ms. Manpreet Kaur : 8699922698 , Ms. Neeru : 7023535653",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "11S3 ",
@@ -217,7 +260,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student dormitory equipped with all basic needs.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr. Palak Sharma : 7988482061",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "10S1",
@@ -226,8 +271,10 @@
   "LONGITUDE": 75.031104,
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
-  "DESCRIPTION": "Residential block for students with attached dining area.",
-  "IMAGE_URL": "images/Hostel.png"
+  "DESCRIPTION": "Residential block for students .",
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "NIL",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "6S2",
@@ -237,7 +284,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel with shared rooms and laundry access.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr. Nootan Verma : 8118801236 ",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "7S2",
@@ -247,7 +296,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel facility for student accommodation.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr.Pragya Topal : 9953129252",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "7S3",
@@ -257,7 +308,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student residential building with essential services.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr.Kavita Kumari : 8882540064",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "3S5",
@@ -267,7 +320,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Hostel block for students located near sports area.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr.Priya Chahal : 7494860906",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "3S6",
@@ -277,7 +332,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Hostel",
   "DESCRIPTION": "Student hostel with modern living facilities.",
-  "IMAGE_URL": "images/Hostel.png"
+  "IMAGE_URL": "images/Hostel.png",
+  "CONTACTS" : "Dr.Mridu Sharma : 8826483742",
+  "EMAIL" : "vinodmaan.cet@modyuniversity.ac.in"
  },
  {
   "ID": "Mechanical workshop",
@@ -287,7 +344,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Academic Building",
   "DESCRIPTION": "Workshop area for mechanical engineering practical sessions.",
-  "IMAGE_URL": "images/mechanical_workshop.jpg"
+  "IMAGE_URL": "images/MechanicalWorkshop.jpg",
+  "CONTACTS" : "8290941780",
+  "EMAIL" : "vikrantsharma.cet@modyuniversity.ac.in"
  },
  {
   "ID": "Helipad area",
@@ -297,7 +356,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "Designated helipad zone for emergency and official use.",
-  "IMAGE_URL": "images/helipad_area.jpg"
+  "IMAGE_URL": "images/Helipad.jpg",
+  "CONTACTS" : "8290941780",
+  "EMAIL" : "vikrantsharma.cet@modyuniversity.ac.in"
  },
  {
   "ID": "Main cafeteria",
@@ -307,7 +368,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Food & Beverages",
   "DESCRIPTION": "Central cafeteria offering meals and refreshments.",
-  "IMAGE_URL": "images/MainCafe.jpg"
+  "IMAGE_URL": "images/MainCafe.jpg",
+  "CONTACTS" : "8077199676",
+  "EMAIL" : "gmfnb@modyuniversity.ac.in"
  },
  {
   "ID": "Mini cafeteria",
@@ -317,7 +380,10 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Food & Beverages",
   "DESCRIPTION": "Small food outlet serving snacks and beverages.",
-  "IMAGE_URL": "images/MiniCafe.jpeg"
+  "IMAGE_URL": "images/MiniCafe.jpeg",
+  "CONTACTS" : "8077199676",
+  "EMAIL" : "gmfnb@modyuniversity.ac.in"
+
  },
  {
   "ID": "Mess",
@@ -327,7 +393,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Food & Beverages",
   "DESCRIPTION": "Dining hall for students with daily meal service.",
-  "IMAGE_URL": "images/Mess.jpg"
+  "IMAGE_URL": "images/Mess.jpg",
+  "CONTACTS" : "8077199676",
+  "EMAIL" : "gmfnb@modyuniversity.ac.in"
  },
  {
   "ID": "Parlour",
@@ -337,7 +405,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "Common parlour area for student relaxation and interaction.",
-  "IMAGE_URL": "images/parlour.jpg"
+  "IMAGE_URL": "images/Parlour.jpg",
+  "CONTACTS" : "8854986702",
+  "EMAIL" : "manager.gym@modyuniversity.ac.in"
  },
  {
   "ID": "Gym",
@@ -347,7 +417,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "Gymnasium equipped with fitness and training equipment.",
-  "IMAGE_URL": "images/gym.jpg"
+  "IMAGE_URL": "images/Gym.jpg",
+  "CONTACTS" : "8854986702",
+  "EMAIL" : "manager.gym@modyuniversity.ac.in"
  },
  {
   "ID": "Reception",
@@ -357,7 +429,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Administration",
   "DESCRIPTION": "Main reception area for campus visitors and inquiries.",
-  "IMAGE_URL": "images/Reception.jpg"
+  "IMAGE_URL": "images/Reception.jpg",
+  "CONTACTS" : "Tollfree : 1800-419-9988 ",
+  "EMAIL" : "aso@modyuniversity.ac.in"
  },
  {
   "ID": "Gazebo",
@@ -367,7 +441,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "Open sitting area for leisure and group discussions.",
-  "IMAGE_URL": "images/Gazebo.jpg"
+  "IMAGE_URL": "images/Gazebo.jpg",
+  "CONTACTS" : "NIL",
+  "EMAIL" : "NIL"
  },
  {
   "ID": "Sob building",
@@ -377,7 +453,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Academic Building",
   "DESCRIPTION": "Academic block for School of Business classes and offices.",
-  "IMAGE_URL": "images/sob_building.jpg"
+  "IMAGE_URL": "images/SobBuilding.jpeg",
+  "CONTACTS" : "Landline : 225015",
+  "EMAIL" : "dean.sob@modyuniversity.ac.in"
  },
  {
   "ID": "School building",
@@ -387,7 +465,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Academic Building",
   "DESCRIPTION": "Main building for school-level education and classrooms.",
-  "IMAGE_URL": "images/school_building.jpg"
+  "IMAGE_URL": "images/SchoolBuilding.jpg",
+  "CONTACTS" : "Landline : 225022",
+  "EMAIL" : "NIL"
  },
  {
   "ID": "Clinic",
@@ -397,7 +477,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Medics",
   "DESCRIPTION": "Campus clinic providing basic healthcare and first aid.",
-  "IMAGE_URL": "images/clinic.jpg"
+  "IMAGE_URL": "images/Clinic.jpg",
+  "CONTACTS" : "7665501677",
+  "EMAIL" : "clinic@modyuniversity.ac.in"
  },
  {
   "ID": "Band Stand",
@@ -407,7 +489,9 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "Band Stand Area for Meetings",
-  "IMAGE_URL": "images/Bandstand.jpeg"
+  "IMAGE_URL": "images/Bandstand.jpeg",
+  "CONTACTS" : "9826431213",
+  "EMAIL" : "managerauditorium@modyuniversity.ac.in"
  },
  {
   "ID": "Lake",
@@ -417,6 +501,32 @@
   "TIMING": "6.00 AM - 9:00PM",
   "CATEGORY": "Others",
   "DESCRIPTION": "Band Stand Area for Meetings",
-  "IMAGE_URL": "images/MierLake.jpg"
+  "IMAGE_URL": "images/MierLake.jpg",
+  "CONTACTS" : "NIL",
+  "EMAIL" : "NIL"
+ },
+ {
+  "ID": "Horse Riding Area",
+  "NAME": "Equesterian Ring",
+  "LATITUDE": 27.802268,
+  "LONGITUDE": 75.030387,
+  "TIMING": "6.00 AM - 9:00PM",
+  "CATEGORY": "Sports Arena",
+  "DESCRIPTION": "Equisterian Ring",
+  "IMAGE_URL": "images/EquestrianRing.jpg",
+  "CONTACTS" : "9983699134",
+  "EMAIL" : "agms@modyuniversity.ac.in"
+ },
+  {
+  "ID": "SEFS",
+  "NAME": "School of Etiquettes and Finishing Skills",
+  "LATITUDE": 27.801761,
+  "LONGITUDE": 75.035484,
+  "TIMING": "9.00 AM - 4:30PM",
+  "CATEGORY": "Academic Building",
+  "DESCRIPTION": "School of Etiquettes and Finishing Skills",
+  "IMAGE_URL": "images/SEFS.png",
+  "CONTACTS" : "6376522654",
+  "EMAIL" : "incharge.sefs@modyuniversity.ac.in"
  }
 ]
